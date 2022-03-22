@@ -1,6 +1,6 @@
 <!DOCTYPE>
 <html>
-    <head meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    <head>
         <title>Araña</title>
         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
         <script src="https://github.com/n5ro/aframe-extras/tree/master/src/loaders#animation"></script>
@@ -17,13 +17,13 @@
                 </a-entity >
                 
                 <a-marker preset="hiro">                                                   
-                    <a-entity position="0 0 0" animation-mixer fbx-model="src: url(/models/new-spidy.fbx);">
+                    <a-entity position="0 -50 0" animation-mixer fbx-model="src: url(/models/new-spidy.fbx);">
                         <a-animation atributte = "rotation" to ="0 360 0" dur = "5000" easing = "linear" repeat = "indefinite" ></a-animation>
                     </a-entity>                                           
                 </a-marker>
 
                 <a-marker preset='kanji'>                                                    
-                    <a-entity position="30 0 0" animation-mixer fbx-model="src: url(/models/new-spidy.fbx);">
+                    <a-entity position="30 -50 0" animation-mixer fbx-model="src: url(/models/new-spidy.fbx);">
                         <a-animation atributte = "rotation" to ="360 0 0" dur = "5000" easing = "linear" repeat = "indefinite" ></a-animation>
                     </a-entity>                                           
                 </a-marker>
